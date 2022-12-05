@@ -1,0 +1,92 @@
+.chatpage{
+    position: relative;
+    width: 400px;
+    height: 800px;
+    background-color: white;
+    background-image: url("https://fsb.zobj.net/crop.php?r=vhdniUtdm6DAC910iVBiRZDs29vWpc5Wt2lw-ZtlaW4HQ2OFbzfTU3gJG2hI3um9DOnunILQnptdV03xVGxhP3EA0VgXgAX7s-VRdRf8hr-RSJ6TayhdL1OBlXvpmccL3QnYn9y7wFE0MOXw_oW5ToyfhF7u9Gc5Ot4h9gqvZp8dbAb8x-oCr2gp9si2iBY3nJ0L7Wrm8Eo4szEU");
+    border-radius: 10px;
+    margin: 0px 40px;
+}
+.headerchat{
+    height: 60px;
+    width: 100%;
+    background-color: #176267;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.chatpic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+.chatdiv{
+    /* position: relative; */
+    width: 100%;
+    /* height: 82.5vh; */
+    height:650px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    overflow-y:visible;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+.fullwidth1{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.chatbox{
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: max-content;
+    font-size: 20px;
+    padding: 1px 10px;
+    margin: 10px;
+}
+.fullwidth2{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.chatboxmy{
+    background-color: #176267;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: max-content;
+    font-size: 20px;
+    padding: 1px 10px;
+    margin: 10px;
+}
+.inputchatdiv{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background-color: white;
+    border-top: 1px solid gray;
+    padding:7px 4.5% ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputchatdiv input{
+    width: 80%;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.splitscreen{
+    display: flex;
+    justify-content: space-between;
+}
